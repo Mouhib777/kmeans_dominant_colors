@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.1.0 – 2025-11-15
+## 0.1.2 – 2025-11-15
 - Initial release of `kmeans_dominant_colors`
 - Custom solution to extract dominant colors from images using K-Means clustering
 - Works for Flutter/Dart projects
