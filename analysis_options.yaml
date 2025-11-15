@@ -1,0 +1,89 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+    - "build/**"
+    - ".dart_tool/**"
+    - "pubspec.lock"
+
+  strong-mode:
+    implicit-casts: false
+    implicit-dynamic: false
+
+  errors:
+    unused_element: warning
+    unused_import: warning
+    unused_local_variable: warning
+    dead_code: warning
+
+linter:
+  rules:
+    # Package rules
+    - public_member_api_docs
+    - package_api_docs
+
+    # Style rules
+    - always_declare_return_types
+    - always_require_non_null_named_parameters
+    - annotate_overrides
+    - avoid_empty_else
+    - avoid_function_literals_in_foreach_calls
+    - avoid_relative_lib_imports
+    - avoid_renaming_method_parameters
+    - avoid_return_types_on_setters
+    - avoid_types_as_parameter_names
+    - avoid_web_libraries_in_flutter
+    - camel_case_types
+    - constant_identifier_names
+    - control_flow_in_finally
+    - empty_catches
+    - empty_constructor_bodies
+    - empty_statements
+    - library_names
+    - library_prefixes
+    - no_duplicate_case_values
+    - non_constant_identifier_names
+    - null_closures
+    - prefer_adjacent_string_concatenation
+    - prefer_collection_literals
+    - prefer_conditional_assignment
+    - prefer_const_constructors
+    - prefer_const_constructors_in_immutables
+    - prefer_const_declarations
+    - prefer_const_literals_to_create_immutables
+    - prefer_contains
+    - prefer_equal_for_default_values
+    - prefer_final_fields
+    - prefer_final_in_for_each
+    - prefer_final_locals
+    - prefer_foreach
+    - prefer_function_declarations_over_variables
+    - prefer_generic_function_type_aliases
+    - prefer_if_null_operators
+    - prefer_initializing_formals
+    - prefer_inlined_adds
+    - prefer_interpolation_to_compose_strings
+    - prefer_is_empty
+    - prefer_is_not_empty
+    - prefer_null_aware_operators
+    - prefer_single_quotes
+    - prefer_spread_collections
+    - prefer_typing_uninitialized_variables
+    - sort_constructors_first
+    - type_init_formals
+    - unnecessary_brace_in_string_interps
+    - unnecessary_const
+    - unnecessary_getters_setters
+    - unnecessary_new
+    - unnecessary_null_checks
+    - unnecessary_null_in_if_null_operators
+    - unnecessary_this
+    - unrelated_type_equality_checks
+    - use_full_hex_values_for_flutter_colors
+    - use_function_type_syntax_for_parameters
+    - use_rethrow_when_possible
+    - use_string_buffers
+    - use_to_and_as_if_applicable
+    - valid_regexps
