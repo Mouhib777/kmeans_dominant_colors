@@ -2,14 +2,17 @@
 
 A Flutter package for extracting dominant colors from images using K-means clustering algorithm.
 
-<img src="example/assets/screenshot1.png" width="300" />
+<img src="example/assets/screenshot1.png" width="200" />
 
 ## Features
 
-- Extract dominant colors from images
-- Customizable number of colors to extract
-- Fast and efficient implementation
-- Returns colors sorted by dominance
+- 🎨 Extract dominant colors from any image
+- ⚡ High-performance implementation with image resizing
+- 📊 Get detailed cluster information (pixel count, percentages)
+- 🎯 Configurable color count and algorithm parameters
+- 🔄 K-means++ initialization for better results
+- 🎪 Returns colors sorted by dominance
+- 📱 Flutter-optimized and null-safe
 
 ## Installation
 
