@@ -2,6 +2,8 @@
 
 A Flutter package for extracting dominant colors from images using K-means clustering algorithm.
 
+![Screenshot](example/assets/screenshot1.png)
+
 ## Features
 
 - Extract dominant colors from images
@@ -15,6 +17,7 @@ Add this to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  kmeans_dominant_colors: 
+  kmeans_dominant_colors:
     git:
       url: https://github.com/Mouhib777/kmeans_dominant_colors# kmeans_dominant_colors
+```
