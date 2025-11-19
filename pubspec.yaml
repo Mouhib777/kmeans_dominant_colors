@@ -1,6 +1,6 @@
 name: kmeans_dominant_colors
 description: A Flutter package to extract dominant colors from images using K-means clustering algorithm. Perfect for generating color palettes, theme suggestions, and image analysis.
-version: 0.1.3
+version: 0.1.4
 homepage: https://github.com/Mouhib777/kmeans_dominant_colors
 repository: https://github.com/Mouhib777/kmeans_dominant_colors.git
 issue_tracker: https://github.com/Mouhib777/kmeans_dominant_colors/issues
